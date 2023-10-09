@@ -16,6 +16,24 @@ function generateMarkdown(data) {
   ## Project Title:
   ${data.title}
 
+  ## Description:
+  ${data.description}
+  ${data.motivation}
+  ${data.why}
+  ${data.solve}
+  ${data.learn}
+  ## Installation: 
+
+  ${data.installation}
+  ## Usage:
+
+  ${data.usage}
+  ## License
+
+  ${data.license}
+
+  ## How to Contribute
+  ${data.contribute}
 `;
 }
 
